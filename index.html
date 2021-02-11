@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, sweetie</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=Loved+by+the+King&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+    <link href="css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container" id="sec-1">
+        <div class="wrap">
+            <a><button class="button" id="btn-iniciar">Iniciar</button></a>
+        </div>
+    </div>
+
+    <div class="container" id="sec-2">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-12">
+                <div>
+                    <h1 class="h1 text-center title-1">PREGUNTA DE
+                        SEGURIDAD</h1>
+                </div>
+                <div>
+                    <h2 class="h2 text-center pregunta-1">¿En qué fecha nació el amor de tu vida?</h2>
+                </div>
+                <div class="text-center mx-auto">
+                    <input type="date" id="date" class="text-center mx-auto date">
+                </div>
+                <div class="text-center pt-5">
+                    <img src="img/flecha.png" class="touch-calendar" /><br><br>
+                    <span class="touch-calendar-text">Toca aquí</span>
+                </div>
+            </div>
+            <div class="text-center mx-auto avanzar">
+                <a><input type="button" id="avanzar-1" value="CONTINUAR" class="text-center mx-auto"
+                        style="visibility: hidden;"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="sec-3">
+        <div class="row px-2">
+            <div class="col-12 text-center">
+                <p class="h2 comprobando-identidad" id="comprobando-identidad">COMPROBANDO IDENTIDAD...</p>
+            </div>
+            <div class="col-12 text-center">
+                <p class="h2 confirm-identidad" id="confirm-identidad" style="display:none;">IDENTIDAD CONFIRMADA
+                </p>
+            </div>
+            <div class="col-12 progress" id="progress" style="padding: 0%;"></div>
+            <div class="col-12 mt-5" id="person-data" style="display:none;">
+                <ul class="list-group">
+                    <li class="list-group-item"><img src="img/foto.jpg" class="img-fluid" /></li>
+                    <li class="list-group-item"><b>Nombre:</b> Tania Grissel</li>
+                    <li class="list-group-item"><b>Apellidos:</b> Domínguez Ramos</li>
+                    <li class="list-group-item"><b>Sexo</b>: Femenino</li>
+                    <li class="list-group-item"><b>Edad:</b> 21</li>
+                    <li class="list-group-item"><b>Nacionalidad:</b> Hondureña</li>
+                </ul>
+            </div>
+            <div class="col-12 text-center pt-4" id="avanzar-2-container" style="display:none;">
+                <a><input type="button" id="avanzar-2" value="CONTINUAR" class="text-center mx-auto"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="sec-4">
+        <h1>Sec 4</h1>
+    </div>
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- <script src="js/progressbar.min.js">
+    </script>-->
+    <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
