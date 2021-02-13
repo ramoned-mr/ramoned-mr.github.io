@@ -41,7 +41,7 @@ let btn_avanzar_1 = document.getElementById("avanzar-1");
 btn_avanzar_1.addEventListener("click", function () {
     enableScroll();
     btn_avanzar_1.parentElement.href = "#sec-3";
-    disableScroll()
+    disableScroll();
 
     var bar = new ProgressBar.Line('#progress', {
         step: function (state, bar, attachment) {
@@ -55,6 +55,7 @@ btn_avanzar_1.addEventListener("click", function () {
     setTimeout(function () {
         let comprobandoIdentidad = document.getElementById("comprobando-identidad");
         let confirmIdentidad = document.getElementById("confirm-identidad");
+        enableScroll();
 
         comprobandoIdentidad.style.display = "none";
         confirmIdentidad.style.display = "block";
@@ -66,6 +67,7 @@ btn_avanzar_1.addEventListener("click", function () {
             document.getElementById("avanzar-2-container").style.display = "block";
         }, 2000);
     }, 4000);
+    disableScroll();
 }, true);
 
 
