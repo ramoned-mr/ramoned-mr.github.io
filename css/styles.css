@@ -157,13 +157,43 @@ button:focus::after {
     margin-bottom: -20%;
 }
 
-#avanzar-1, #avanzar-2 {
+#avanzar-1,
+#avanzar-3,
+#avanzar-5,
+#avanzar-7,
+#avanzar-9,
+#avanzar-11,
+#avanzar-13,
+#avanzar-15,
+#avanzar-17,
+#avanzar-19,
+#fin {
     width: 85%;
     height: 50px;
     border-radius: 25px;
     background-color: #fff;
     border: 3px solid #801700;
     color: #801700;
+    font-weight: bold;
+    -webkit-box-shadow: -8px 10px 8px -6px rgba(255, 255, 255, 0.48);
+    -moz-box-shadow: -8px 10px 8px -6px rgba(255, 255, 255, 0.48);
+    box-shadow: -8px 10px 8px -6px rgba(255, 255, 255, 0.48);
+}
+
+#avanzar-2,
+#avanzar-4,
+#avanzar-6,
+#avanzar-8,
+#avanzar-10,
+#avanzar-12,
+#avanzar-14,
+#avanzar-16,
+#avanzar-18 {
+    width: 85%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #801700;
+    color: #fff;
     font-weight: bold;
     -webkit-box-shadow: -8px 10px 8px -6px rgba(255, 255, 255, 0.48);
     -moz-box-shadow: -8px 10px 8px -6px rgba(255, 255, 255, 0.48);
@@ -181,6 +211,66 @@ button:focus::after {
     font-weight: bold;
 }
 
+.foto-1 {
+    width: 70%;
+}
 
+#sec-4,
+#sec-6,
+#sec-8,
+#sec-10,
+#sec-12,
+#sec-14,
+#sec-16,
+#sec-18,
+#sec-20 {
+    font-size: 20px;
+    font-family: 'Loved by the King', cursive;
+    width: 100%;
+    height: 100vh;
+    background-color: #801700;
+    color: #fff;
+}
 
-/* COMPROBANDO */
+#sec-5,
+#sec-7,
+#sec-9,
+#sec-11,
+#sec-13,
+#sec-15,
+#sec-17,
+#sec-19 {
+    font-size: 20px;
+    font-family: 'Loved by the King', cursive;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    color: #801700;
+}
+
+.title-gusto-1 {
+    color: #801700;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.title-gusto-2 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #801700;
+}
+
+.text-gusto-1 {
+    color: #801700;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.text-gusto-2 {
+    color: #fff;
+    background-color: #801700;
+    font-size: 1em;
+    font-weight: bold;
+}
