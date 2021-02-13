@@ -40,7 +40,8 @@ let btn_avanzar_1 = document.getElementById("avanzar-1");
 
 btn_avanzar_1.addEventListener("click", function () {
     enableScroll();
-    btn_avanzar_1.parentElement.href = "#sec-3";
+    //btn_avanzar_1.parentElement.href = "#sec-3";
+    window.location.href="https://ramoned-mr.github.io/#sec-3"
     //disableScroll();
 
     var bar = new ProgressBar.Line('#progress', {
@@ -55,7 +56,7 @@ btn_avanzar_1.addEventListener("click", function () {
     setTimeout(function () {
         let comprobandoIdentidad = document.getElementById("comprobando-identidad");
         let confirmIdentidad = document.getElementById("confirm-identidad");
-       // enableScroll();
+        // enableScroll();
 
         comprobandoIdentidad.style.display = "none";
         confirmIdentidad.style.display = "block";
@@ -67,7 +68,7 @@ btn_avanzar_1.addEventListener("click", function () {
             document.getElementById("avanzar-2-container").style.display = "block";
         }, 2000);
     }, 4000);
-    disableScroll();
+
 }, true);
 
 
